@@ -7,21 +7,11 @@ A simple, stylish static website for a café—ideal for showcasing your menu, l
 ##  Project Structure
 
 ```
-/
-├── css/         # Stylesheets (e.g., `styles.css`)
-├── images/      # Image assets (e.g., menu items, logo)
-└── index.html   # Landing page for your café
+  /
+  ├── css/         # Stylesheets (e.g., `styles.css`)
+  ├── images/      # Image assets (e.g., menu items, logo)
+  └── index.html   # Landing page for your café
 ```
-
----
-
-## Features
-
-- Fully static—built with basic HTML and CSS, no server backend required
-- Lightweight and fast-loading
-- Easy to customize and deploy
-- Perfect for simple café landing pages
-
 ---
 
 ##  Getting Started
@@ -29,8 +19,11 @@ A simple, stylish static website for a café—ideal for showcasing your menu, l
 ### 1. Clone the Repository
 
 ```bash
+
   git clone https://github.com/techgeek68/Cafe-Website-For-AWS-S3.git
+
   cd Cafe-Website-For-AWS-S3
+
 ```
 
 ### 2. Customize the Content
@@ -59,7 +52,7 @@ Follow these steps to host your site as a static website using AWS S3:
    Use your AWS Console or CLI, e.g.:
 
    ```bash
-   aws s3api create-bucket --bucket your-unique-bucket --region us-east-1 --create-bucket-configuration LocationConstraint=us-east-1
+     aws s3api create-bucket --bucket your-unique-bucket --region us-east-1 --create-bucket-configuration LocationConstraint=us-east-1
    ```
 
 2. **Enable Static Website Hosting**  
@@ -87,7 +80,7 @@ Follow these steps to host your site as a static website using AWS S3:
    Use AWS Console or CLI to upload:
 
    ```bash
-   aws s3 sync . s3://your-unique-bucket/ --acl public-read
+     aws s3 sync . s3://your-unique-bucket/ --acl public-read
    ```
 
 5. **Access Your Site**  
@@ -99,13 +92,5 @@ Follow these steps to host your site as a static website using AWS S3:
 
 - **Developer**: techgeek68
 - **Inspired By**: AWS static website Challenge Labs for cafés.  
-
 ---
 
-### Ready to Get Brewing?
-
-1. Clone and customize  
-2. Deploy to S3  
-3. Share your café’s story with the world!
-
----
