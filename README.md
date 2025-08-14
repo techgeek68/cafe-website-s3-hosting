@@ -29,8 +29,8 @@ A simple, stylish static website for a café—ideal for showcasing your menu, l
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/techgeek68/Cafe-Website-For-AWS-S3.git
-cd Cafe-Website-For-AWS-S3
+  git clone https://github.com/techgeek68/Cafe-Website-For-AWS-S3.git
+  cd Cafe-Website-For-AWS-S3
 ```
 
 ### 2. Customize the Content
@@ -38,8 +38,10 @@ cd Cafe-Website-For-AWS-S3
 - **index.html**:
   - Edit café name, tagline, menu, hours, location, and contact info.
   - Structure semantic sections: Header, Menu, About, Footer.
+    
 - **css/**:
   - Update or add styles to match your brand—colors, fonts, layout tweaks.
+    
 - **images/**:
   - Swap out placeholder files with your café’s photos or branding assets.
 
@@ -93,17 +95,10 @@ Follow these steps to host your site as a static website using AWS S3:
 
 ---
 
-##  (Optional) Advanced Enhancements
+## Credits
 
-If you'd like to expand the setup further—such as adding versioning, lifecycle rules, or cross-region replication—feel free to integrate AWS best practices. While this repo is intentionally kept simple, these enhancements can provide added data protection and durability. You might refer to AWS labs that cover such practices in detail ([dev.to](https://dev.to/ameh_mathias/challenge-lab-creating-a-static-website-for-the-cafe-447i?utm_source=chatgpt.com), [medium.com](https://medium.com/%40mightytomisin/1-creating-a-static-website-for-a-caf%C3%A9-in-aws-cloud-cf9655355e75?utm_source=chatgpt.com)).
-
----
-
-## Credits & License
-
-- **Developer**: techgeek68  
-- **Inspired By**: AWS static website Challenge Labs for cafés ([dev.to](https://dev.to/ameh_mathias/challenge-lab-creating-a-static-website-for-the-cafe-447i?utm_source=chatgpt.com), [medium.com](https://medium.com/%40mightytomisin/1-creating-a-static-website-for-a-caf%C3%A9-in-aws-cloud-cf9655355e75?utm_source=chatgpt.com)).  
-- **License**: *(Consider adding one, e.g., MIT, if open source intended)*
+- **Developer**: techgeek68
+- **Inspired By**: AWS static website Challenge Labs for cafés.  
 
 ---
 
@@ -114,5 +109,3 @@ If you'd like to expand the setup further—such as adding versioning, lifecycle
 3. Share your café’s story with the world!
 
 ---
-
-Need help refining the layout or deploying it with CloudFront, SSL, or a custom domain? Just let me know—I’ve got your back!
