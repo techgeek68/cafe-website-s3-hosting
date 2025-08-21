@@ -1,1 +1,19 @@
+# Node and build artifacts
+node_modules/
+dist/
+build/
+.cache/
+.env
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# AWS CLI config
+.aws/
+
+# Logs
+*.log
+
+# Misc
+*.tmp
